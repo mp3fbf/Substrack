@@ -9,14 +9,18 @@ export const metadata = {
   description: "Track your subscriptions easily",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <ClerkProvider>
       <html lang="en">
         <body className={inter.className}>
           <header className="flex justify-between items-center p-4 border-b">
             <h1 className="text-xl font-bold">Substrack</h1>
-            <nav className="flex gap-2">
+            <nav className="flex gap-4">
               <SignedOut>
                 <SignInButton mode="modal">
                   <button className="px-4 py-2 rounded bg-blue-500 text-white">
@@ -38,5 +42,5 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </body>
       </html>
     </ClerkProvider>
-  )
+  );
 }
