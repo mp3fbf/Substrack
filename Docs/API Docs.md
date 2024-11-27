@@ -88,7 +88,7 @@ While not APIs in the traditional sense, these libraries are crucial to our app�
 	•	Form Setup: Creating forms and registering inputs.
 	•	Validation: Implementing validation rules and error handling.
 	•	Performance Optimization: Leveraging the library’s performance benefits.
-	•	Documentation: [React Hook Form Documentation](https://react-hook-form.com/get-started)
+	•	Documentation: React Hook Form Documentation
 
 Environment Configuration
 
